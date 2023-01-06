@@ -15,5 +15,6 @@ __________
     $ cd Insta-and-Fb-cracker
     $ pip install -r requirements.txt
     $ pip install telegram
+    $ pip install python-telegram-bot
     $ git pull
     $ python instafbcrack.py
