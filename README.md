@@ -14,5 +14,6 @@ __________
     $ git clone https://github.com/Spyzieboy/Insta-and-Fb-cracker.git
     $ cd Insta-and-Fb-cracker
     $ pip install -r requirements.txt
+    $ pip install telegram
     $ git pull
     $ python instafbcrack.py
