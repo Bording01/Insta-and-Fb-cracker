@@ -92,10 +92,10 @@ elif number == 2:
                 'Enter your phone number with country code (eg : +91) : ')
             if re.match(r'^\+?\d{10,15}$', phone_number):
                 # Phone number is valid
-            break
+                break
             else:
                 # Phone number is not valid
-            print('Invalid phone number. Please enter a valid phone number.')
+                print('Invalid phone number. Please enter a valid phone number.')
 
         password = input('Enter your password: ')
 
