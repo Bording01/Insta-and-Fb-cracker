@@ -12,5 +12,6 @@ __________
     $ pkg install figlet
     $ git clone https://github.com/Spyzieboy/Insta-and-Fb-cracker.git
     $ cd instafbcrack
+    $ pip install -r requirements.txt
     $ git pull
     $ python instafbcrack.py
