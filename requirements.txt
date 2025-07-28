@@ -432,7 +432,7 @@ SQLAlchemy-Utc==0.14.0
 sqlparse==0.4.2
 sslyze==5.0.6
 stack-data==0.0.0
-starlette==0.20.4
+starlette==0.47.2
 stone==3.3.1
 sympy==1.11.1
 syslog-rfc5424-formatter==1.2.3
